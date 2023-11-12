@@ -1,7 +1,7 @@
 FROM node
 
 EXPOSE 8080
-WORKDIR /usr/src/app
+WORKDIR /opt/server
 COPY . .
 RUN npm install
 ENV MONGO=true
